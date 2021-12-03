@@ -1,0 +1,23 @@
+$ git clone maryrose-hw my-copy1
+Cloning into 'my-copy1'...
+done.
+$ cd my-copy1
+$ git branch my-copyb
+$ git checkout my-copyb
+Switched to branch 'my-copyb'
+$ git add homework.js
+$ git commit -m "My first commit to the Homework"
+[my-copyb 1f4d3ce] My first commit to the Homework
+ 1 file changed, 1 insertion(+)
+$ git push origin my-copyb
+Counting objects: 3, done.
+Delta compression using up to 16 threads.
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 331 bytes | 0 bytes/s, done.
+Total 3 (delta 1), reused 0 (delta 0)
+To /home/ccuser/workspace/js-homework/maryrose-hw
+ * [new branch]      my-copyb -> my-copyb
+$ cd ../maryrose-hw
+$ git branch
+* master
+  my-copyb
